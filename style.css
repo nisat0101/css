@@ -1,0 +1,10 @@
+h1#tds{
+    background-color: rgb(33, 153, 222); color: yellow;
+}
+div.all{
+    background-color: rgb(208, 204, 190);max-height: fit-content;
+}
+p#pre,p#mea,p#ban,#with{
+    background-color: cornsilk;padding: ;
+}
+div.Pro{ color: blue;}
