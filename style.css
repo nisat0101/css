@@ -1,10 +1,29 @@
-h1#tds{
-    background-color: rgb(33, 153, 222); color: yellow;
+h1#tds {
+  background-color: rgb(33, 153, 222);
+  color: yellow;
 }
-div.all{
-    background-color: rgb(208, 204, 190);max-height: fit-content;
+div.all {
+  background-color: rgb(208, 204, 190);
+  max-height: fit-content;
 }
-p#pre,p#mea,p#ban,#with{
-    background-color: cornsilk;padding: ;
+p#pre,
+p#mea,
+p#ban {
+  background-color: cornsilk;
 }
-div.Pro{ color: blue;}
+
+#with {
+  background-color: aquamarine;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: 20px 40px 60px 180px ;
+  border-style: inset;
+  border-color: brown;
+  /* border-width: 20px;
+  border-style: inset;
+  border-color: brown; */
+  margin: yellow 20px 40px;
+  border: 20px inset red;
+}
