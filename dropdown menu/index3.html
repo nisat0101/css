@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100%;
+            border: 1px solid black;
+            height: 10vh;
+            /* display: flex; */
+            padding: 10 px ;
+            display: flex;
+        }
+        .main a{
+            padding: 10px;
+        }
+        .a{
+            padding: 10px;
+        }
+        .a{
+            position: relative;
+        }
+        .b{
+            display: none;
+        }
+        .b>a{
+            display: block ;
+            background-color: beige;
+        }
+        .a:hover .b{
+            background-color: aqua;
+            display: block;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <a href="#">home</a>
+        <a href="#">menu</a>
+        <div class="a"> <a href="#">List</a>
+            <div class="b">
+                <a href="#">Java</a>
+                <a href="#">js</a>
+                <a href="#">php</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

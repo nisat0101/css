@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100%;
+            height: 10vh;
+            border: 1px solid black;
+            display: flex;
+            /* justify-content: space-between; */
+            padding: 10px;
+        }
+        .main>a{
+            padding: 15px;
+        }
+        .logo{
+            width: 10%;
+            height: 10vh;
+        }
+        .logo>img{
+            width: 100%;
+            height: 10vh;
+        }
+        .dmain{
+            position: relative;
+            padding: 15px;
+        }
+        .dlist{
+            position: absolute;
+            display: none;
+           
+        }
+        .dlist>a{
+            display: block;
+        }
+        .dmain:hover .dlist{
+            
+            background: #dd7e7e;
+            width: 100%;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <a href="#">Net</a>
+        <a href="#">Java</a>
+        <a href="#">Networking</a>
+        <a href="#">Oracle</a>
+        <div class="dmain">
+            <a href="#">WDPF</a>
+            <div class="dlist">
+                <a href="#">java</a>
+                <a href="#">Php</a>
+                <a href="#">js</a>
+                <a href="#">react</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

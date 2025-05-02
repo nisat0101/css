@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown</title>
+
+</head>
+<style>
+    .main{
+        width: 100%;
+        height: 15vh;
+        border: 1px solid black;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .logo{
+        
+        height: 15vh;
+        border: 1px solid black;
+    }
+    .logo>img{
+        
+        height: 15vh;
+        
+    }
+    .nav{
+        width: 90%;
+        border: 1px solid black;
+        text-align: right;padding: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .nav>a{
+         padding: 0px 20px;
+    }
+    .dropcon{
+       
+        display: inline-block;
+    }
+    .dropcon>a{
+
+    }
+    .dropitem{
+        
+    }
+    .dropitem>a{
+
+    }
+
+</style>
+<body>
+    <div class="main">
+        <dip class="logo"> <img src="logo.png" alt=""></dip>
+        <dip class="nav">
+            <a href="#">Menu</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <div class="dropcon">
+                <a href="#">list</a>
+                <div class="dropitem">
+                    <a href="#">Css</a>
+                    <a href="#">java</a>
+                    <a href="#">Python</a>
+                </div>
+            </div>
+        </dip>
+    </div>
+</body>
+</html>
